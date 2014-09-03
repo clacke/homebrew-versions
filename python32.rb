@@ -7,8 +7,8 @@ require 'formula'
 
 class Python32 < Formula
   homepage 'http://www.python.org/'
-  url 'http://python.org/ftp/python/3.2.3/Python-3.2.3.tar.bz2'
-  sha1 '4c2d562a0681ba27bc920500050e2f08de224311'
+  url 'https://www.python.org/ftp/python/3.2.5/Python-3.2.5.tar.bz2'
+  sha1 '6bd2714704995bc84fc9b8e3019205bf75d44969'
   VER='3.2'  # The <major>.<minor> is used so often.
 
   option :universal
