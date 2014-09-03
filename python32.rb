@@ -16,13 +16,13 @@ class Python32 < Formula
   option 'with-brewed-openssl', "Use Homebrew's openSSL instead of the one from OS X"
 
   resource 'setuptools' do
-    url 'https://pypi.python.org/packages/source/s/setuptools/setuptools-2.1.tar.gz'
-    sha1 '3e4a325d807eb0104e98985e7bd9f1ef86fc2efa'
+    url 'https://pypi.python.org/packages/source/s/setuptools/setuptools-5.7.tar.gz'
+    sha1 '807552212cda409b074e0e55630c3801a39eb198'
   end
 
   resource 'pip' do
-    url 'https://pypi.python.org/packages/source/p/pip/pip-1.4.1.tar.gz'
-    sha1 '9766254c7909af6d04739b4a7732cc29e9a48cb0'
+    url 'https://pypi.python.org/packages/source/p/pip/pip-1.5.6.tar.gz'
+    sha1 'e6cd9e6f2fd8d28c9976313632ef8aa8ac31249e'
   end
 
   def site_packages_cellar
